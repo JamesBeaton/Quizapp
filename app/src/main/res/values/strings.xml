@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Brain Games</string>
+    <string name="heading_1">know your stuff when it comes to games?\ntype in your name below and begin the quiz!!</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_4">Question 4</string>
+    <string name="question_5">Question 5</string>
+    <string name="q1Summary">Mario is a character created by which company?\nSelect one from the two answers below</string>
+    <string name="sega">Sega</string>
+    <string name="nintendo">Nintendo</string>
+    <string name="name">Name</string>
+    <string name="q2Summary">Who are Mario and Sonics partners in crime?\nSelect two from the three answers below</string>
+    <string name="q4Sum">Which company developed the Tekken series?\nSelect your answer below</string>
+    <string name="q5Summary">What is the name of Microsofts new super console due to come out in 2017</string>
+    <string name="knuckles">Knuckles</string>
+    <string name="luigi">Luigi</string>
+    <string name="daxter">Daxter</string>
+    <string name="shenmue">Shenmue first debuted on the Sega MegaDrive?</string>
+    <string name="trueAnswer">True</string>
+    <string name="falseAnswer">False</string>
+    <string name="ea">EA</string>
+    <string name="namco">Namco</string>
+    <string name="redButtonSummary">Press the red button to reveal how you did</string>
+    <string name="redButton">Results</string>
+    <string name="newMicro">X...</string>
+    <string name="Wooohoo">Wooohoo!!</string>
+    <string name="perfectScore">you have achieved a perfect score of</string>
+    <string name="points">points!!!</string>
+    <string name="trueGamer">your a true hardcore gamer!!</string>
+    <string name="doBetter">you can do better than that!!</string>
+    <string name="answerQuestions">attempt to answer the questions again!!</string>
+    <string name="congratulations">congratulations!!</string>
+    <string name="youScored">you have scored</string>
+    <string name="outOf5">out of 5 points!! answer all of them correctly to achieve a perfect score!!</string>
+</resources>

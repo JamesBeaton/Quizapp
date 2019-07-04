@@ -1,0 +1,196 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/heading_1"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_1" />
+
+        <TextView
+            style="@style/questionSummary"
+            android:layout_marginBottom="16dp"
+            android:text="@string/q1Summary" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="1"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/checkbox_sega"
+                style="@style/checkBoxes"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/sega" />
+
+
+            <RadioButton
+                android:id="@+id/checkbox_ninty"
+                style="@style/radioButtons"
+                android:layout_marginBottom="16dp"
+                android:text="@string/nintendo" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_2" />
+
+        <TextView
+            style="@style/questionSummary"
+            android:layout_marginBottom="16dp"
+            android:text="@string/q2Summary" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_knuckles"
+            style="@style/checkBoxes"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/knuckles" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_luigi"
+            style="@style/checkBoxes"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/luigi" />
+
+        <CheckBox
+            android:id="@+id/checkbox_daxter"
+            style="@style/checkBoxes"
+            android:layout_marginBottom="16dp"
+            android:text="@string/daxter" />
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_3" />
+
+        <TextView
+            style="@style/questionSummary"
+            android:layout_marginBottom="16dp"
+            android:text="@string/shenmue" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="1"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/shenmue_true_1"
+                style="@style/radioButtons"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/trueAnswer" />
+
+            <RadioButton
+                android:id="@+id/shenmue_false_1"
+                style="@style/radioButtons"
+                android:layout_marginBottom="16dp"
+                android:text="@string/falseAnswer" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_4" />
+
+        <TextView
+            style="@style/questionSummary"
+            android:layout_marginBottom="16dp"
+            android:text="@string/q4Sum" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="1"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ea_true"
+                style="@style/radioButtons"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/ea" />
+
+            <RadioButton
+                android:id="@+id/namco_true"
+                style="@style/radioButtons"
+                android:layout_marginBottom="16dp"
+                android:text="@string/namco" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:layout_marginTop="16dp"
+            android:text="@string/question_5" />
+
+        <TextView
+            style="@style/questionSummary"
+            android:layout_marginBottom="16dp"
+            android:text="@string/q5Summary" />
+
+
+        <EditText
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/newMicro"
+            android:inputType="textCapWords" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/redButtonSummary"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/primaryColor"
+            android:onClick="quizResults"
+            android:text="@string/redButton"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
